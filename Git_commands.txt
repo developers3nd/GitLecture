@@ -1,0 +1,47 @@
+11:20 AM 03/09/2022
+
+Git:
+version conrolling system used for source code management
+-tracking
+-log
+-merge
+-local repository
+-add git
+-rollback
+-local repo move github online
+
+basic commands
+add  ( files add )
+status ( tracking )
+commit ( changes save )
+pull ( online github )
+push ( local send online )
+clone ( duplicate )
+
+
+
+Download Git: https://git-scm.com/
+
+Step 1 : Open Git Bash
+
+git config --global user.name "xyz name"
+git config --global user.email "abc@gmail.com"
+Step 2: Open Visual Code :
+
+Creating Project
+Install Extension Powershell Microsoft
+Install Extension GitLens
+Open Ternimal then enter following command
+git init --- use for git initialization for every project
+git status -- show all files ( red file - untrack file ) / ( green file - track file )
+git add . -- add all file in git
+git add abc.html -- for single file
+git commit -m "write starting message" --- every changes must type these commit
+git log --- show all changes with commit
+
+Local/Offline repository to Github ( online repository):
+git clone https://github.com/developers3nd/basic_website_layout.git
+git push https://github.com/developers3nd/basic_website_layout.git
+*every time you have just use push not required complete path for your repository
+
+
